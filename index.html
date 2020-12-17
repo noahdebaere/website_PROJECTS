@@ -1,12 +1,497 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vives Projects - Noah Debaere</title>
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Landing Page - Noah Debaere</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
-    <h1>This is my awesome website!</h1>
+
+<body id="page-top">
+
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+            <a href="#page-top"><img src="/05-landing-page/assets/img/vives-removebg.png" alt="Vives Logo"
+                    id="vives-logo"></a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Noah Debaere</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item">
+                        <div class="nav-item dropdown show">
+                            <a class="nav-link js-scroll-trigger" href="#projects" role="button" id="projects-right">
+                                Projects
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown show">
+                            <a class="nav-link js-scroll-trigger dropdown-toggle" id="arrow-left" href="#" role="button"
+                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false"></a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a href="#hello-world"><h6 class="dropdown-header">Hello-World</h6></a>
+                                <a class="dropdown-item" href="#hello-world-hello-world">Hello-World</a>
+                                <a class="dropdown-item" href="#hello-world-netlify">Publish to Netlify</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#html"><h6 class="dropdown-header">HTML</h6></a>
+                                <a class="dropdown-item" href="#html-firstHTML">My First HTML Document</a>
+                                <a class="dropdown-item" href="#html-lai">Links and Images</a>
+                                <a class="dropdown-item" href="#html-st">Simple Table</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#css"><h6 class="dropdown-header">CSS</h6></a>
+                                <a class="dropdown-item" href="#css-login">Loginform</a>
+                                <a class="dropdown-item" href="#css-popup">Popup</a>
+                                <a class="dropdown-item" href="#css-schedule">Schedule</a>
+                                <a class="dropdown-item" href="#css-ti">Topbar Icons</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#layouts"><h6 class="dropdown-header">Layouts</h6></a>
+                                <a class="dropdown-item" href="#layouts-lpd">Landing Page</a>
+                                <a class="dropdown-item" href="#layouts-blog">Blog</a>
+                                <a class="dropdown-item" href="#layouts-calc">Calculator</a>
+                                <a class="dropdown-item" href="#layouts-cd">Card Designs</a>
+                                <a class="dropdown-item" href="#layouts-oxo">OXO Grid</a>
+                                <a class="dropdown-item" href="#layouts-pc">Price Comparison</a>
+                                <a class="dropdown-item" href="#layouts-sl">Simple Layout</a>
+                                <div class="dropdown-divider"></div>
+                                <a href="#page-top"><h6 class="dropdown-header">Landing Page</h6></a>
+                                <a class="dropdown-item" href="#landing-page">The Landing Page</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Landing Page</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">This is my landing page for the Web-Essentials course for
+                    the Vives Hogeschool.</h2>
+                <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About-->
+    <section class="about-section text-center" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">My Landing Page</h2>
+                    <p class="text-white-50">
+                        I created this Landing Page using Grayscale. It is a free Bootstrap theme created by Start
+                        Bootstrap.
+                        The theme is open source, and you can use it for any purpose, personal or commercial.
+                        You can view all of my made projects <a href="#projects" class="js-scroll-trigger">here</a>!
+                    </p>
+                </div>
+            </div>
+            <img class="img-fluid" src="assets/img/ipad.png" alt="" />
+        </div>
+    </section>
+
+    <!-- Projects-->
+    <section class="projects-section bg-light" id="projects">
+        <div class="container">
+
+            <!-- HELLO WORLD-->
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5 mt-lg-5" id="hello-world">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>Hello-World</h4>
+                        <p class="text-black-50 mb-0">These are all the exercises for 01-hello-world!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="hello-world-hello-world">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/01-hello-world/hello-world"><h4 class="text-white">Hello World</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="hello-world-netlify">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/01-hello-world/publish-to-netlify"><h4 class="text-white">Publish to Netlify</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- HTML-->
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5 mt-lg-5" id="html">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>HTML</h4>
+                        <p class="text-black-50 mb-0">These are all the exercises for 02-html!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="html-firstHTML">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/02-html/first-html-document"><h4 class="text-white">First HTML Document</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="html-lai">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/02-html/links-and-images"><h4 class="text-white">Link and Images</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="html-st">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/02-html/simple-table"><h4 class="text-white">Simple Table</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CSS-->
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5 mt-lg-5" id="css">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>CSS</h4>
+                        <p class="text-black-50 mb-0">These are all the exercises for 03-css!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="css-login">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/03-css/loginform"><h4 class="text-white">Loginform</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="css-popup">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/03-css/popup"><h4 class="text-white">Popup</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="css-schedule">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/03-css/schedule"><h4 class="text-white">Schedule</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="css-ti">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/03-css/topbar-icons"><h4 class="text-white">Topbar Icons</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Layouts -->
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5 mt-lg-5" id="layouts">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>CSS</h4>
+                        <p class="text-black-50 mb-0">These are all the exercises for 04-layouts!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="layouts-lpd">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/04-layouts/landing-page"><h4 class="text-white">Landing Page Devbit</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="layouts-blog">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/04-layouts/blog"><h4 class="text-white">Blog</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="layouts-calc">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/04-layouts/calculator"><h4 class="text-white">Calculator</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="layouts-cd">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/04-layouts/card-designs"><h4 class="text-white">Card Designs</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="layouts-oxo">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/04-layouts/oxo-grid"><h4 class="text-white">OXO Grid</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row-->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0" id="layouts-pc">
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <a href="/04-layouts/price-comparison"><h4 class="text-white">Price Comparison</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="layouts-sl">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/04-layouts/simple-layout"><h4 class="text-white">Simple Layout</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Landing Page -->
+            <!-- Featured Project Row-->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5 mt-lg-5">
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4>CSS</h4>
+                        <p class="text-black-50 mb-0">This is the exercise for 05-landing-page!</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row-->
+            <div class="row justify-content-center no-gutters" id="landing-page">
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <a href="/05-landing-page/"><h4 class="text-white">Landing Page</h4></a>
+                                <p class="mb-0 text-white-50">Click on the exercise name to view the result</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- Contact-->
+    <section class="signup-section bg-black" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Address</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50">KULEUVEN CAMPUS BRUGGE: Spoorwegstraat 12, 8200 Brugge
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-envelope text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">Email</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"><a href="#!">noah.debaere@student.vives.be</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3 mb-md-0">
+                    <div class="card py-4 h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                            <h4 class="text-uppercase m-0">GitHub Repository</h4>
+                            <hr class="my-4" />
+                            <div class="small text-black-50"><a
+                                    href="https://github.com/vives-web-essentials-2020/web-essentials-practical-noahdebaere">Click
+                                    here!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="contact-section">
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://twitter.com/DebaereNoah7"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/noah.debaere/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://github.com/noahdebaere"><i class="fab fa-github"></i></a>
+                </div>
+        </div>
+    </section>
+    </section>
+    <!-- Footer-->
+    <footer class="footer bg-black small text-center text-white-50">
+        <div class="container">Copyright © Noah Debaere 2020</div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Third party plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
